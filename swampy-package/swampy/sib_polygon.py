@@ -13,9 +13,9 @@ bob = Turtle()
 pd(bob)
 
 for i in range(4)
-fd(bob,100)
-lt(bob, 90)
-
+   fd(bob,100)
+   lt(bob, 90)
+pu(bob)
 
 
 
