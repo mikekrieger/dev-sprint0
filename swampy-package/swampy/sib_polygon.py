@@ -1,6 +1,6 @@
 # Polygon excercise from Week 0
 
-# Name:
+# Name: Michael Krieger
 
 
 from TurtleWorld import * 		
@@ -10,9 +10,11 @@ bob = Turtle()
 
 
 # This is where you put code to move bob
+pd(bob)
 
-
-
+for i in range(4)
+fd(bob,100)
+lt(bob, 90)
 
 
 
