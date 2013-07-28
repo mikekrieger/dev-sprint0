@@ -12,12 +12,11 @@ bob = Turtle()
 # This is where you put code to move bob
 pd(bob)
 
-for i in range(4)
-   fd(bob,100)
-   lt(bob, 90)
+def square(t):
+    for i in range(4):
+        fd(bob,100)
+        lt(bob, 90)
+
 pu(bob)
-
-
-
 
 wait_for_user()					
