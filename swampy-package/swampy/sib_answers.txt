@@ -7,27 +7,27 @@
 Explain what each of the following lines does. Use the terminology you learned from the book (or Google)
 	
 	from TurtleWorld import *
-	world = TurtleWorld()
-	bob = Turtle()
-	wait_for_user()
+	world = TurtleWorld() 
+	bob = Turtle() 
+	wait_for_user() 
 
 Answer:
-
-
-
-
+1. Imports functions into module.
+2. Idenfities TurtleWorld as the program.
+3. Tells python that bob is the name of the Turtle.
+4. Tells python to wait for a command from the user.
 
 
 These questions pertain to the program you wrote in Week0.
 
 -- What are the arguments of polygon()?  What type is each argument?
-Answer:
+Answer: t (turtle which is also bob) n (number of sides) length (length of each side)
 
 -- What two turtle functions did you use to draw the sides of the polygon?
-Answer:
+Answer: square and polyline
 
 -- What are the arguments for polyline?  What type is each argument?
-Answer:
+Answer: t (turtle) n (number of sides) length (length of each side) angle (angle of polygon)
 
 
 
@@ -36,10 +36,11 @@ Answer:
 Suppose you wrote a function, center_circle(), that draws a circle of a given radius around the current location of the turtle and restores the turtle to its starting point.
 
 -- What turtle functions would you use to move the turtle from the center to the edge of the circle and get ready to call the original circle() function?
-Answer:
+Answer: arc(t,r,angle)
+move(bob,r)
 
 -- Suppose the interface of this function requires the turtle to end up in the same place it started, facing in the same direction it started.
-Answer:
+Answer: lt(t, angle)
 
 -- What is this type of requirement called?
-Answer:
+Answer: paramater
