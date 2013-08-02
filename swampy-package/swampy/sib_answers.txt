@@ -36,11 +36,16 @@ Answer: t (turtle) n (number of sides) length (length of each side) angle (angle
 Suppose you wrote a function, center_circle(), that draws a circle of a given radius around the current location of the turtle and restores the turtle to its starting point.
 
 -- What turtle functions would you use to move the turtle from the center to the edge of the circle and get ready to call the original circle() function?
-Answer: arc(t,r,angle)
-move(bob,r)
+Answer: 
+pu (t)
+fd (t, #) # would be the radius of circle
+pd () to get to the edge of the intended circle.
 
 -- Suppose the interface of this function requires the turtle to end up in the same place it started, facing in the same direction it started.
-Answer: lt(t, angle)
+Answer: 
+pu (t)
+bk (t, #) # would be the radius of circle
+pd (t) to get to the center of the circle
 
 -- What is this type of requirement called?
-Answer: paramater
+Answer: preconditions and postconditions
